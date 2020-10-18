@@ -1,0 +1,58 @@
+---
+title: "Analisa Hidrologi - Review Tambak Gorontalo"
+author: "Irpan Chumaedi"
+output:
+  bookdown::pdf_document2:
+    keep_tex: true
+  bookdown::html_document2: default
+  bookdown::word_document2:
+    reference_docx: word_style_02.docx
+---
+
+# Sub DAS Sungai
+
+Untuk dapat menghitung debit banjir dan debit andalan, diperlukan 2 (dua) inputan data utama. Input yang pertama adalah karakteristik dari sub DAS yang ditinjau seperti luasan, panjang sungai, dan kemiringan sungai. Kemudian input kedua yang diperlukan adalah curah hujan rencana.
+
+Untuk data karakteristik sub DAS diperoleh dari deliniasi peta rupa bumi Indonesia (RBI) dan peta Wilayah Sungai dari Permen PUPR No. 4 Tahun 2015 Tentang Kriteria dan Pembagian Wilayah Sungai. Hasil deliniasi untuk lokasi yang ditinjau ditampilkan pada gambar berikut.
+
+# Data Hujan
+
+# Pemeriksaan Data Hujan
+
+## Pemeriksaan Outlier
+
+# Debit Banjir
+
+## Bagan Alir Perhitungan Debit Banjir
+
+## Analisa Frekuensi
+
+### Distribusi Normal
+
+### Distribusi Log Normal
+
+### Distribusi Log Pearson III
+
+### Distribusi Gumbel
+
+## Uji Pemilihan Distribusi Frekuensi
+
+## Distribusi Hujan
+
+## Koefisien Pengaliran dan Hujan Efektif
+
+## Perhitungan Debit Banjir
+
+### Perhitungan Dengan Metode Hidrograf Satuan Sintetis (HSS)
+
+### Pemilihan Metode Debit Banjir
+
+# Debit Andalan
+
+## Evapotranspirasi
+
+## Model F.J Mock
+
+### Parameter Model FJ. Mock
+
+### Hasil Perhitungan Model FJ. Mock
