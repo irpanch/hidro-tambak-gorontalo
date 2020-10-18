@@ -1,0 +1,10 @@
+book_filename: "bookdown-thesis"
+language:
+  label:
+    fig: 'Gambar '
+    tab: 'Tabel '
+    eq: 'Persamaan '
+  ui:
+    chapter_name: "Bab "
+delete_merged_file: true
+edit: https://github.com/irpanch/bookdown-thesis/edit/master/%s
