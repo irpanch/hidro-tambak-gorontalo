@@ -2,11 +2,13 @@
 title: "Analisa Hidrologi"
 subtitle: "Review Tambak Gorontalo"
 output:
-  bookdown::pdf_document2:
-    keep_tex: true
-  bookdown::html_document2: default
   bookdown::word_document2:
     reference_docx: word_style_02.docx
+    number_section: false
+    toc: false
+  bookdown::html_document2: default
+  bookdown::pdf_document2:
+    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
@@ -19,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE,message = FALSE,dpi = 300, fig.align="center"
 
 ```{r nama-lokasi-proyek}
 # nama-nama unik pada proyek yang dibuat
-subdas <- "Sungai"
+subdas <- "DIT Malingkopoto"
 jumlah_pos <- 1
 jumlah_pos_text <- "satu"
 Sta_1 <- "Stasiun Hujan Malingkapoto"
@@ -33,7 +35,7 @@ Untuk dapat menghitung debit banjir dan debit andalan, diperlukan 2 (dua) inputa
 
 Untuk data karakteristik sub DAS diperoleh dari deliniasi peta rupa bumi Indonesia (RBI) dan peta Wilayah Sungai dari Permen PUPR No. 4 Tahun 2015 Tentang Kriteria dan Pembagian Wilayah Sungai. Hasil deliniasi untuk lokasi yang ditinjau ditampilkan pada Gambar \@ref(fig:subdas-all2) di bawah ini.
 
-(ref:subdas) Lokasi Sub DAS `r subdas`
+(ref:subdas) Lokasi ***Sub DAS*** `r subdas`
 
 ```{r subdas-all2, fig.cap='(ref:subdas)', out.width='60%', fig.asp=.75, fig.align='center'}
 knitr::include_graphics('picture/subdas-all.png')
